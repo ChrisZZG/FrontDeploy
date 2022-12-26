@@ -1,0 +1,78 @@
+<header class="hero">
+    <div class="container">
+        <nav class="nav">
+            <div class="container__arg">
+                <a href="https://argentinaprograma.inti.gob.ar" target="_blank">
+                    <img src="assets/logo01.png" alt="" class="image__arg">
+                </a>
+            </div>
+            <a href="#" id="home" class="nav__items nav__items--cta">Home</a>
+            <a href="#about" class="nav__items">About</a>
+            <a href="#experiencia" class="nav__items">Experience</a>
+            <a href="#education" class="nav__items">Education</a>
+            <a href="#skills" class="nav__items">Skills</a>
+            <a href="#projects" class="nav__items">Proyects</a>
+            <div class="modal__login">
+                <button type="button" class="btn btn-light me-4"  data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat" (click)="login()" *ngIf="!isLogged">Login</button>
+                <button type="button" class="btn btn-light me-4"  data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat" (click)="onLogout()"*ngIf="isLogged">LogOut</button>
+      
+            </div>
+        </nav>
+
+        <section class="hero__container">
+            <div class="hero__texts">
+                <h1 class="hero__title"> const x = Hello, I'm {{persona.nombre + " "}} {{persona.apellido}} <br>
+                      let y = [Full Stack developer Jr.]</h1>
+                <h2 class="hero__subtitle">var z = Transforming ideas into realities.</h2>
+                <div class="contact__form">
+                    
+                    
+                </div>
+            </div>
+
+            
+         
+         <!--CONTACT FORM-->
+          <!-- <div >
+            <p>
+              <button class="btn btn-warning me-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                Fast Contact
+              </button>
+            </p>
+            <div style="min-height: 120px;">
+              <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                <div class="card card-body bg-dark" style="width: 300px;">
+                  <div class="mb-3">
+                    <label for="contactNameInput" class="form-label">Contact Name</label>
+                    <input type="text" class="form-control" id="contactNameInput" placeholder="contact name">
+                  </div>
+                  
+                  
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="messageInput" class="form-label">Message</label>
+                    <textarea class="form-control" id="messageInput" rows="3"></textarea>
+                  </div>
+                  <button class="btn btn-primary" type="submit" value="Submit">Submit</button>
+                </div>
+              </div>
+            </div>
+            
+            
+          
+          </div> -->
+        </section>
+         
+        
+        
+    </div>
+   
+
+   
+    <!-- SMOOTH.IE -->
+    <div class="hero__wave" style=" overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+  
+  </header>

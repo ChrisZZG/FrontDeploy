@@ -1,0 +1,47 @@
+<section class="presentation container">
+    <div>
+        
+            <button class="btn btn-info btn-right mb-3" type="button" routerLink="/editacercade/1" *ngIf="isLogged">  Editar Persona </button>
+        
+
+                <div id="info-img">
+                <img src="../../../assets/profile.jpg" alt="persona" class="presentation__picture">
+            
+                 </div>
+            
+            <h2 class="subtitle">"My name is: {{persona.nombre + " "}}{{persona.apellido}}"</h2>
+            <div>
+                <p class="presentation__copy">
+                    {{persona.descripcion}}
+                </p>
+            </div>
+    </div>
+    
+   
+
+    <!-- ICONOS DE CONTACTO -->
+    <div class="presentation__icons">
+        <span class="presentation__container-icons">
+            <a href="mailto:cristiangonzz@gmail.com? subject=subject text" class="fa-solid fa-envelope presentation__icon"></a>
+        </span>
+        <span class="presentation__container-icons">
+            <a href="https://www.linkedin.com/in/cristian-gonzalez-78b260184/" class="fa-brands fa-linkedin presentation__icon" target="_blank"></a>
+        </span>
+        <span class="presentation__container-icons">
+            <a href="https://twitter.com/Gaspar_string" class="fa-brands fa-twitter presentation__icon" target="_blank"></a>
+        </span>
+        <span class="presentation__container-icons">
+            <a href="https://wa.me/+5492604416183?text=¡Estoy+interesado!" class="fa-brands fa-whatsapp presentation__icon" target="_blank"></a>
+        </span>
+        <span class="presentation__container-icons">
+            <a href="https://github.com/ChrisZZG" class="fa-brands fa-github presentation__icon" target="_blank"></a>
+        </span>
+        <span class="presentation__container-icons">
+            <a href="https://www.artstation.com/gasparnoeh" class="fa-brands fa-artstation presentation__icon" target="_blank"></a>
+        </span>
+        <span class="presentation__container-icons">
+            <a href="https://www.instagram.com/gaspar_noeh/" class="fa-brands fa-instagram presentation__icon" target="_blank"></a>
+        </span>
+        
+    </div>
+</section>

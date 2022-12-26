@@ -1,0 +1,21 @@
+<div class="container">
+
+    <div class="row">
+        <div>
+            <form (ngSubmit)="onCreate()" novalidate #f="ngForm">
+            <div class="form-group">
+                <label for="laborales">Habilidades Laborales</label>
+                <input type="text" class="form-control" id="laborales" name="laborales" [(ngModel)]="laborales" required>
+            </div>
+            <div class="form-group">
+                <label for="sociales">Habilidades Sociales</label>
+                <input type="text" class="form-control" id="sociales" name="sociales" [(ngModel)]="sociales" required>
+            </div>
+         
+            <button class="btn btn-info" type="submit" >
+                Agregar Habilidades
+            </button>
+        </form>
+        </div>
+    </div>
+</div>

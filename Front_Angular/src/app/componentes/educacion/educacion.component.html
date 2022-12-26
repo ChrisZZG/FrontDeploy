@@ -1,0 +1,42 @@
+<section class="education" id="education">
+    <div class="education container" id="education">
+        <div class="row">
+            <h2 class="subtitle text-center">Formal Education</h2>
+    
+            <div class="col-lg-2">
+                <button class="btn btn-info btn-right mb-3" type="button" routerLink="/nuevaedu" *ngIf="isLogged">  New Education </button>
+            </div>
+    
+            <div class="education__grid">
+                
+                <article >
+                    <div>
+                        <div class="education__item container-lg text-center">
+                            <tbody class="row">
+                                <div class="education__person" *ngFor="let Educacion of educacion">
+                                    <h2 class="education__verification col-md" >{{"-" + Educacion.tituloE}}</h2>
+                                    <h4 class="education__name col-md" >{{Educacion.institucionE}}</h4>
+                                    <p class="nav__items col-md" >{{Educacion.descripcionE}}</p>
+                                    <a class="nav__items col-md" href="{{Educacion.urlE}}" target="_blank">{{Educacion.urlE}}</a>
+                                    <div class="btn-edit col-md" *ngIf="isLogged">
+                                        <button class="btn btn-light" routerLink="/editedu/{{Educacion.id}}">
+                                            <i class="fa fa-pen"></i> EDITAR</button>
+                                    </div>
+                                    <div class="btn-edit col-md" *ngIf="isLogged">
+                                        <button class="btn btn-light" (click)="delete(Educacion.id)">
+                                            <i class="fa-solid fa-minus"></i> BORRAR</button>
+                                    </div>
+                                </div>
+                            </tbody>
+    
+                        </div>
+    
+                    </div>
+                </article>
+    
+            </div>
+        </div>
+    </div>
+    
+    
+</section>

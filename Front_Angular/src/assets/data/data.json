@@ -1,0 +1,96 @@
+{
+	"name": "Cristian Gonzalez",
+	"backImage": "src/assets/img1.jpg",
+	"image": "PRUEBAFRONT/src/assets/profile.jpg",
+	"titles": [
+		"Tecnico Construcciones",
+		"Quimico/Bromatologo",
+		"Full Stack Developer Jr."
+	],
+	"title_presentation": "My nombre es: Cristian Gonzalez",
+	"description_presentation": "Argentino, oriundo de San Rafael, Mendoza. Me dedico a la Pintura, soy Químico con una especialización en Regulación Alimentaria y actualmente comenzando en el camino del desarrollo web como Full Stack Developer Jr.",
+	"education": {
+		
+			"university0": {
+				"institution": "INTI-Argentina Programa",
+				"img": "src/assets/logo01.png",
+				"url": "https://argentinaprograma.inti.gob.ar/mod/page/view.php?id=1875",
+				"title": "Full Stack Developer Jr.",
+				"review": "Front and Back End, HTML, CSS, JS, TS, ANGULAR, MySQL..."
+			},
+			"school": {
+				"institution": "ENET N°1 4-117, Ejercito de los Andes",
+				"img": "src/assets/enet.jpg",
+				"url": "http://enet4117.edu.ar/historia-institucional/",
+				"title": "Tecnico en Construcciones",
+				"review": "Colegio Secundario con orientación TÉCNICO EN EQUIPOS E INSTALACIONES ELECTROMECÁNICAS Y TÉCNICO MAYOR DE OBRAS; situado en la Ciudad de San Rafael, Mendoza, Argentina."
+			},
+			"university1": {
+				"institution": "UNC-SEDE CIENCIAS APLICADAS",
+				"img": "src/assets/uncuyo.jpg",
+				"url": "https://www.uncuyo.edu.ar",
+				"title": "Bromatología",
+				"review": "Universidad"
+			},
+			"university2": {
+				"institution": "ANMAT",
+				"img": "src/assets/anmat.jpg",
+				"url": "https://www.argentina.gob.ar/anmat",
+				"titles": 
+					[
+						"Sistema Gestiión Calidad (ISO 9001)",
+						"Buenas Practicas Apícolas",
+						"Manipulación Segura de Alimentos",
+						"BPM-Buenas Prácticas de Manufactura",
+						"HACCP-Análisis de Riesgo y Puntos Críticos de Control",
+						"Trazabilidad en la Industria Alimentaria"	
+					]
+						
+					
+				
+			},
+			"university3": {
+				"institution": "CCT N° 6-046",
+				"img": "src/assets/cct.jpg",
+				"url": "https://cct6-046.blogspot.com",
+				"titles": 
+				[
+					"Idioma Extranjero para el Turismo Ingles",
+					"Idioma Extranjero para el Turismo Francés"	
+				]
+					
+				
+			}
+		
+		},
+	"laboral_experience": {
+		"exp1": {
+			"enterprise": "Laboratorios Gaspar",
+			"img": "src/assets/logo gaspar.png",
+			"speciality": "Desarrollo Cosmética Naturista",
+			"site": "https://www.facebook.com/cosmetic.lab.73/",
+			"specialisation": "Manufactura y Comercio de Productos Cosméticos Naturales elaborados a bases de extractos Vegetales, minimizando el impacto medioambiental de su elaboración, de forma que las personas tengan al alcance productos para el cuidado y protección de la piel."
+		},
+		"exp2": {
+			"enterprise": "ARCOR",
+			"img": "src/assets/arcor.jpg",
+			"speciality": "Analista Cálidad",
+			"site": "https://www.arcor.com/ar/",
+			"specialisation":"Analista Calidad, Análisis físico químico, Constituyentes, Legislación, Normativa Internacional, Control de linea, Estándares de Proceso, Normativa Britanica, Trazabilidad y HACCP."
+		},
+		"exp3": {
+			"enterprise": "MURVILLE-VIDES S.A.",
+			"img": "src/assets/murville.png",
+			"speciality": "Analista Cálidad",
+			"site": "http://murville.com",
+			"specialisation":"Análisis de Constituyentes, Legislación INV, Control de Calidad, Ensayos de Producción, BPM, POES, MIP, Control de Efluentes."
+		},
+		"exp4": {
+			"enterprise": "UNC-Saneamiento y Seguridad Industrial",
+			"img": "src/assets/uncuyo.png",
+			"speciality": "Ayudante Catedra",
+			"site": "https://www.uncuyo.edu.ar",
+			"specialisation":"Análisis físico químico, Constituyentes, Legislación, Normativa Internacional, , Ensayos de Producción, BPM, POES, MIP, Control de Efluentes."
+		}
+	}
+}
