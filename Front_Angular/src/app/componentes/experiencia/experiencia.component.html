@@ -1,22 +1,22 @@
 <div class="experiencia" id="experiencia">
     <div class="container">
-                <div class="row">
+                <div class="">
                         <h2 class="subtitle text-center">Work Experience</h2>
 
                         <div class="col-lg-2">
                             <button class="btn btn-info btn-right mb-3" type="button" routerLink="/nuevaexp" *ngIf="isLogged">  Nueva Experiencia </button>
                         </div>
 
-                        <div class="experiencia__grid">
+                        <div class="education__grid">
                             
-                            <article>
-                                <div>
-                                    <div class="experiencia__item container-lg text-center">
+                            
+                                <div class="experiencia__grid">
+                                    <div class="education__item continer-lg text-center">
                                         <tbody class="row">
                                             <div class="education__person" *ngFor="let Experiencia of expe">
                                                 <h2 class="education__verification col-md" >{{Experiencia.nombreE}}</h2>
                                                 <h4 class="education__name col-md" >{{Experiencia.positionE}}</h4>
-                                                <p class="nav__items col-md" >{{Experiencia.descriptionE}}</p>
+                                                <p class="nav__items col-md">{{Experiencia.descriptionE}}</p>
                                                 <a class="nav__items col-md" href="{{Experiencia.urlE}}" target="_blank">{{Experiencia.urlE}}</a>
                                                 <div class="btn-edit col-md" *ngIf="isLogged">
                                                     <button class="btn btn-light" routerLink="/editexp/{{Experiencia.id}}">
@@ -32,7 +32,7 @@
                                     </div>
 
                                 </div>
-                            </article>
+                            
 
                         </div>
                     </div>
