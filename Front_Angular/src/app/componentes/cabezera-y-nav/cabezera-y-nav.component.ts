@@ -15,13 +15,12 @@ export class CabezeraYNavComponent implements OnInit {
   isLogged = false;
 
 
-  persona: persona = null;
+  persona: persona = new persona("","","");
 
   constructor(public personaService: PersonaService, private router:Router, private tokenService: TokenService) { }
 
 
   ngOnInit(): void {
-
     this.cargarPersona();
     if(this.tokenService.getToken()){
       this.isLogged = true;
